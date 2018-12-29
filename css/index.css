@@ -22,7 +22,6 @@ h7 {
 }
 
 .product-grid6 {
-  font-family:'Open Sans',sans-serif;
   text-align:center;
   position:relative;
   transition:all .5s ease 0s;
@@ -47,11 +46,14 @@ h7 {
 }
 
 .product-grid6 .product-content {
-  padding:12px 12px 15px;transition:all .5s ease 0s
+  padding:12px 12px 15px;
+  transition:all .5s ease 0s;
+  background-color: #ffffff;
 }
 
 .product-grid6:hover .product-content {
-  opacity:0
+  opacity: 0;
+  background-color: #ffffff;
 }
 
 .product-grid6 .title {
@@ -62,8 +64,8 @@ h7 {
   transition:all .3s ease 0s
 }
 
-.product-grid6 .title a {
-  color:#000
+.product-grid6 .title a {  
+  color: #000;
 }
 
 .product-grid6 .title a:hover {
@@ -71,7 +73,9 @@ h7 {
 }
 
 .product-grid6 .price { 
-  font-size:18px;font-weight:600;color:#2e86de
+  font-size:18px;
+  font-weight:600;
+  color:#2e86de
 }
 
 .product-grid6 .price span {
@@ -95,11 +99,12 @@ h7 {
   bottom:-50%;
   left:50%;
   z-index:1;
-  transition:all .5s ease 0s
+  transition:all .5s ease 0s;
 }
 
 .product-grid6:hover .social {
-  opacity:1;bottom:20px
+  opacity:1;
+  bottom:20px;
 }
 
 .product-grid6 .social li {
@@ -107,7 +112,8 @@ h7 {
 }
 
 .product-grid6 .social li a {
-  color:#909090;font-size:16px;
+  color:#909090;
+  font-size:16px;
   line-height:45px;
   text-align:center;
   height:45px;

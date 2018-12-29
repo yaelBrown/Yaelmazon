@@ -6,3 +6,12 @@ body {
 .bg-light {
   background-color: #EEEEEE !important;
 }
+
+.YaelmazonLogo {
+  width: auto;
+  height: 1.8em;
+  position: relative;
+  top: 6px;
+  display: inline;
+  z-index: 1;
+}
